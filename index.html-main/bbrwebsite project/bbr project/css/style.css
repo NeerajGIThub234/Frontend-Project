@@ -1,0 +1,657 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-top {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #0aaaa0;
+  position: relative;
+  width: 100%;
+}
+
+.ec-handle {
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  color: #333;
+  font-size: 20px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  padding: .5em;
+  top: 11em;
+  width: 40px;
+  z-index: 2;
+}
+
+.ec-handle i {
+  line-height: 38px;
+}
+
+.main-menu-area {
+  width: 100%;
+  position: relative;
+  top: -3em;
+  z-index: 2
+}
+
+.social ul li {
+  float: left;
+  padding: 0 7.5px;
+  list-style-type: none;
+  vertical-align: center;
+  position: relative;
+  left: 10em;
+}
+
+.social ul li:first-child {
+  padding-left: 0;
+}
+
+.social ul li a {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+.call {
+  float: right;
+  position: relative;
+  right: 10em;
+  top: -14px;
+}
+
+.call>ul {
+  float: right;
+}
+
+.call ul li {
+  float: left;
+  list-style-type: none;
+  vertical-align: center;
+}
+
+.call ul li:last-child {
+  float: right;
+}
+
+.call ul li a {
+  font-size: 12px;
+  padding: 0 10px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.call ul li a i {
+  margin-right: 7px;
+}
+
+.call ul li:last-child a {
+  padding-right: 0px;
+}
+
+.call ul li:last-child a i {
+  margin-right: 0;
+}
+
+.logo {
+  position: relative;
+  top: 1em;
+  left: 10.5em;
+  padding: 20px;
+  float: left;
+}
+
+.main-menu ul {
+  list-style-type: none;
+  margin: 1em;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+  top: 3.2em;
+  left: 15em;
+}
+
+.main-menu li {
+  float: left;
+}
+
+.main-menu li a {
+  display: block;
+  color: #444;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 2em;
+  text-decoration: none;
+}
+
+.main-menu li a:hover {
+  color: #0aaaa0;
+}
+
+.donate>a {
+  background: #0aaaa0;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 0.1em solid #0aaaa0;
+  text-transform: uppercase;
+  position: relative;
+  top: 0.5em;
+  left: 75em;
+}
+
+.donate>a:hover {
+  background-color: white;
+  color: #0aaaa0;
+  border-color: #0aaaa0;  
+}
+
+.banner {
+  margin: -10px;
+  position: relative;
+  top: 2em;
+}
+
+.caption {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: -9em;
+  left: 7em;
+  margin: 0 0 15px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.2;
+}
+
+.caption-desc {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-bottom: 40px;
+  margin-top: 18px;
+  position: relative;
+  top: -24em;
+  left: 19em;
+  width: 45%;
+}
+
+.arrows {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 30px;
+  color: #fff;
+}
+
+.arrow-left {
+  position: relative;
+  top: -15em;
+  left: 7em;
+}
+
+.arrow-right {
+  position: relative;
+  top: -15em;
+  left: 42em;
+}
+
+.btn-donate {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: raleway;
+  font-size: 13.5px;
+  font-weight: bold;
+  padding: 10px 12px;
+  margin: 0px 15px 0px 0px;
+  border-radius: 4px;
+  position: relative;
+  top: -27em;
+  left: 18em;
+  text-decoration: none;
+}
+
+.btn-learn {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: raleway;
+  font-size: 13.5px;
+  font-weight: bold;
+  padding: 10px 12px;
+  margin: 0px 15px 0px 0px;
+  border-radius: 4px;
+  position: relative;
+  top: -27em;
+  left: 18em;
+  text-decoration: none;
+}
+
+.our-volunteers {
+  position: relative;
+  top: -5em;
+}
+
+.section-title h2 {
+  color: #1b1b1b;
+  font-family: raleway;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-title h2 span {
+  color: #0aaaa0;
+}
+
+.title-bottom {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title.text-center>p {
+  color: #333333;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.volunteer {
+  float: left;
+  width: 20%;
+  padding: .5em;
+}
+
+.row-our-volunteers {
+  position: relative;
+  left: 8.5em;
+}
+
+.row-our-volunteers::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.volunteer-title.text-center {
+  margin-top: 0;
+}
+
+.volunteer-title.text-center>h5 {
+  color: #444444;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.volunteer-title.text-center>p {
+  color: #444444;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+.container-people-says {
+  resize: both;
+  height: 33em;
+}
+
+.row-people-says {
+  position: relative;
+  top: -31em;
+}
+
+.people-says-area {
+  position: relative;
+}
+
+.people-say-bg {
+  position: relative;
+}
+
+.single-people {
+  margin: auto;
+  width: 55%;
+  position: relative;
+  margin-top: 4em;
+}
+
+.people-say-title {
+  position: relative;
+}
+
+.people-say-title>h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: .5em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.people-say-image {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.people-say-image>img {
+  border: 2px solid #0aaaa0;
+  border-radius: 100%;
+  height: 115px;
+  width: 115px;
+}
+
+.people-say-text {
+  text-align: center;
+  width: 75%;
+  position: relative;
+  left: 6.5em;
+}
+
+.people-say-text.text-center>p {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.people-say-text.text-center>h5 {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  margin-top: 23px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.people-say-text h6 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.buttons {
+  position: relative;
+  top: -12em;
+}
+
+.icon-prev {
+  font-size: 30px;
+  position: relative;
+  left: 5em;
+  color: white;
+}
+
+.icon-next {
+  font-size: 30px;
+  position: relative;
+  left: 45em;
+  top: -1.1em;
+  color: white;
+}
+
+.footer {
+  position: relative;
+  resize: both;
+  height: 10em;
+}
+
+.container-footer {
+  resize: both;
+  height: 23em;
+}
+
+.footer-top {
+  background: #232323;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.footer-widget-title>h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 45px;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-widget-title>h3::after {
+  background: #0aaac0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 140%;
+  width: 30px;
+}
+
+.widget-about-content>p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  word-wrap: break-word;
+  width: 26em;
+  margin-top: 3em;
+}
+
+.widget-contact-content>h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.widget-contact-content>a {
+  color: #fff;
+  display: block;
+  line-height: 25pt;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.widget-contact-content>p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.footer-widget.widget-two li::after {
+  color: #fff;
+  content: "\f105";
+  font-family: fontawesome;
+  left: 0;
+  position: absolute;
+  padding-left: 40px;
+}
+
+.footer-widget.widget-two a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-widget.widget-two li {
+  margin-bottom: 12px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.footer-widget.widget-two li:hover::after {
+  color: #0E9CB1;
+}
+
+.footer-widget.widget-two a:hover {
+  color: #0E9CB1;
+}
+
+.footer-widget.widget-three li::after {
+  color: #fff;
+  content: "\f105";
+  font-family: fontawesome;
+  left: 0;
+  position: absolute;
+  padding-left: 40px;
+}
+
+.footer-widget.widget-three a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-widget.widget-three li {
+  margin-bottom: 12px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.footer-widget.widget-three li:hover::after {
+  color: #0E9CB1;
+}
+
+.footer-widget.widget-three a:hover {
+  color: #0E9CB1;
+}
+
+.newsletter {
+  margin-top: 39px;
+}
+
+.newsletter input {
+  border: medium none;
+  border-radius: 2px 0 0 2px;
+  padding: 5px 10px;
+}
+
+.newsletter button {
+  background: #0aaaa0;
+  border: medium none;
+  border-radius: 0 2px 2px 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: -5px;
+  padding: 5px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 45px;
+}
+
+.newsletter button:hover {
+  opacity: 0.8;
+}
+
+.footer-bottom {
+  background: #191919;
+  padding: 16px 0;
+  position: relative;
+}
+
+.footer-social {
+  float: right;
+  position: relative;
+  top: -2.5em;
+  left: -12em;
+}
+
+.copyright>p {
+  color: #eee;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: -0.5em;
+  left: 12em;
+}
+
+.copyright>p a {
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-social ul li {
+  display: inline;
+  padding: 0 7.5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-social ul li a {
+  color: #eee;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-widget.widget-one {
+  position: relative;
+  top: 3em;
+  left: 11em;
+}
+
+.footer-widget.widget-two {
+  position: relative;
+  top: -14em;
+  left: 32em;
+}
+
+.footer-widget.widget-three {
+  position: relative;
+  top: -29.3em;
+  left: 47em;
+}
+
+.footer-widget.widget-four {
+  position: relative;
+  top: -44.5em;
+  left: 63em;
+}
+
+.footer-widget.widget-two > .footer-widget-title {
+  margin-left: 2.4em;
+}
+
+.footer-widget.widget-three > .footer-widget-title {
+  margin-left: 2.4em;
+}
+
+.body-full {
+  position: relative;
+  top: -3em;
+}
